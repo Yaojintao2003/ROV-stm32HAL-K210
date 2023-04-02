@@ -180,9 +180,6 @@ HAL_Delay(5);
   {
     /* USER CODE END WHILE */
 
-		
-		
-		
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
