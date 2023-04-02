@@ -1,0 +1,10 @@
+keil_rov\oled_debug.o: ..\Core\OLED_DMA\oled_debug.c
+keil_rov\oled_debug.o: ..\Core\OLED_DMA\oled_debug.h
+keil_rov\oled_debug.o: ..\Core\OLED_DMA\oled_font.h
+keil_rov\oled_debug.o: ..\Core\OLED_DMA\oled_config.h
+keil_rov\oled_debug.o: ..\Core\OLED_DMA\oled_basic.h
+keil_rov\oled_debug.o: ..\Core\OLED_DMA\oled_draw.h
+keil_rov\oled_debug.o: ..\Core\OLED_DMA\oled_color.h
+keil_rov\oled_debug.o: E:\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
+keil_rov\oled_debug.o: E:\MDK\ARM\ARMCC\Bin\..\include\string.h
+keil_rov\oled_debug.o: E:\MDK\ARM\ARMCC\Bin\..\include\stdarg.h

@@ -1,0 +1,10 @@
+keil_rov\oled_draw.o: ..\Core\OLED_DMA\oled_draw.c
+keil_rov\oled_draw.o: ..\Core\OLED_DMA\oled_draw.h
+keil_rov\oled_draw.o: ..\Core\OLED_DMA\oled_basic.h
+keil_rov\oled_draw.o: ..\Core\OLED_DMA\oled_color.h
+keil_rov\oled_draw.o: ..\Core\OLED_DMA\oled_buffer.h
+keil_rov\oled_draw.o: ..\Core\OLED_DMA\oled_config.h
+keil_rov\oled_draw.o: E:\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
+keil_rov\oled_draw.o: E:\MDK\ARM\ARMCC\Bin\..\include\math.h
+keil_rov\oled_draw.o: ..\Core\OLED_DMA\oled_bmp.h
+keil_rov\oled_draw.o: ..\Core\OLED_DMA\oled_font.h
