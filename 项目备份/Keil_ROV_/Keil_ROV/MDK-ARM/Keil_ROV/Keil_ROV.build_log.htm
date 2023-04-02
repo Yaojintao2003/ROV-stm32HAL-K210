@@ -1,0 +1,82 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: yaojintao 17752352458, 111, LIC=KRMW3-ALAL7-LQU0Q-NYXF5-FM835-M89TY
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.36.0.0
+Toolchain Path:  E:\MDK\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      CMSIS_AGDI.dll V1.33.0.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+H:\UnderWater-Robot\Keil_ROV_\Keil_ROV\MDK-ARM\Keil_ROV.uvprojx
+Project File Date:  03/02/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'E:\MDK\ARM\ARMCC\Bin'
+Build target 'Keil_ROV'
+compiling main.c...
+../Core/Src/../MS5837/ms5837.h(45): warning:  #1295-D: Deprecated declaration depth - give arg types
+  float depth();
+../Core/Src/../MS5837/ms5837.h(46): warning:  #1295-D: Deprecated declaration altitude - give arg types
+  float altitude();
+../Core/Src/../Verfint_ADC/Verfint_ADC.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Src/../OLED_DMA/oled_myapp.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Src/../Range2Percentage/Range2Percentage.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif 
+../Core/Src/../UART_DMA/UART_DMA.h(31): warning:  #1295-D: Deprecated declaration StartUartRxDMA - give arg types
+  uint8_t StartUartRxDMA();								//接收DMA初始化
+../Core/Src/../UART_DMA/UART_DMA.h(32): warning:  #1295-D: Deprecated declaration StartUartTxDMA - give arg types
+  uint8_t StartUartTxDMA();								//不需要自己调用
+../Core/Src/../UART_DMA/UART_DMA.h(33): warning:  #1295-D: Deprecated declaration ProcessData - give arg types
+  void ProcessData();										//在里面添加数据处理函数
+../Core/Src/main.c(131): warning:  #188-D: enumerated type mixed with another type
+   HAL_GPIO_WritePin(Beep_GPIO_Port, Beep_Pin, 0);
+../Core/Src/main.c(133): warning:  #188-D: enumerated type mixed with another type
+  	 HAL_GPIO_WritePin(Beep_GPIO_Port, Beep_Pin, 1);  
+../Core/Src/main.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=48160 RO-data=7424 RW-data=436 ZI-data=24788  
+FromELF: creating hex file...
+"Keil_ROV\Keil_ROV.axf" - 0 Error(s), 10 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.15.0.pack
+                Keil.STM32F4xx_DFP.2.15.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Keil_ROV
+  E:\MDK\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  E:\MDK\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+      Include file:  CMSIS\Core\Include\tz_context.h
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>

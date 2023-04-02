@@ -1,0 +1,6 @@
+r
+halt
+loadfile "c:\Users\hhh\Documents\stm32Keil\F1\MPU6050_HAL\MDK-ARM\build\MPU6050_HAL\MDK-ARM.hex"
+r
+go
+exit
