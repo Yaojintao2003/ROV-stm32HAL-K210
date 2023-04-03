@@ -6,8 +6,11 @@
 #include "oled_config.h"
 #include "oled_basic.h"
 
-extern I2C_HandleTypeDef hi2c3;
-#define Scr12864_HI2C hi2c3
+// extern I2C_HandleTypeDef hi2c3;
+// #define Scr12864_HI2C hi2c3
+
+extern I2C_HandleTypeDef hi2c2;
+#define Scr12864_HI2C hi2c2
 
 #define OLED_ADDRESS 0x78
 #define OLED_WriteCom_Addr	0x00	
